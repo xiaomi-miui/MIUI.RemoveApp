@@ -12,12 +12,20 @@ ui_print("Deleting Browser ...");
 delete("/system/priv-app/Browser/Browser.apk");
 ui_print("Deleting Gallery ...");
 delete("/system/priv-app/MiuiGallery/MiuiGallery.apk");
+ui_print("Deleting Music ...");
+delete("/system/priv-app/Music/Music.apk");
+ui_print("Deleting Weather ...");
+delete("/system/priv-app/Weather/Weather.apk");
 
 ui_print("Deleting app ...");
+ui_print("Deleting Calculator ...");
+delete("/system/app/Calculator/Calculator.apk");
 ui_print("Deleting Mail ...");
 delete("/system/app/Email/Email.apk");
 ui_print("Deleting Explorer ...");
 delete("/system/app/FileExplorer/FileExplorer.apk");
+ui_print("Deleting Video ...");
+delete("/system/app/MiuiVideo/MiuiVideo.apk");
 ui_print("Deleting Notes ...");
 delete("/system/app/Notes/Notes.apk");
 
